@@ -1,0 +1,32 @@
+.directions {
+}
+
+.directions div {
+	background-color: blue;
+	cursor: pointer;
+	width: 50px;
+	height: 50px;
+}
+
+.directions .down {
+	background-color: black;
+}
+
+#forward {
+	margin-left:60px;
+	border-radius: 5px 5px 0px 0px;
+}
+#left {
+	margin-left:5px;
+	float:left;
+	border-radius: 5px 0px 0px 5px;
+}
+#right {
+	margin-left:115px;
+	border-radius: 0px 5px 5px 0px;
+}
+#backward {
+	margin-left:60px;
+	border-radius: 0px 0px 5px 5px;
+}
+
